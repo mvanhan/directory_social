@@ -63,7 +63,6 @@ export default function Home() {
                 fontWeight: 'bold',
               }}
             >
-              {/* Directory-Social is the name of a dumb organization filled with people who think they are cooler than they are. The members of this organization subscribe to a way of life known as Opium. As defined by the Urban Dictionary, Opium is edgy, emo, and very playboi carti core. I, myself, am a member of Directory-Social. Am I Opium? Well, I will leave that for you to decide. Thank you for visiting this directory. */}
               The theme of this website was inpsired by a friend. However, the actual website was built exclusively by myself. 
 
               Hint: Try options 3, 5, or 7 below. 
