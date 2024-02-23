@@ -28,18 +28,18 @@ export default function Home() {
         <h1>Welcome to Directory-Social</h1>
       </div>
       <div className="flexing" style={{ marginTop: '40px' }}>
-        <img
+        {/* <img
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzOOBnfnOFn5Yr4eUcPAS88NjiHXcQBxh_Ug&usqp=CAU"
           alt="Image 1"
-        />
+        /> */}
         {/* <img
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbm5ngswFVj4_7kPrA4629ijSac1xHqP4X-Q&usqp=CAU"
           alt="Image 2"
         /> */}
-        <img
+        {/* <img
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2Ighvdq_W5oEmM17Dfh-tPw8LRXJZyVdD4A&usqp=CAU"
           alt="Image 3"
-        />
+        /> */}
       </div>
       <section id="about" className="content">
         <h2 style={{ textAlign: 'center' }}>ABOUT</h2>
