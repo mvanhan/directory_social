@@ -12,14 +12,14 @@ export default function Home() {
   return (
     <div>
       <nav className="nav">
+        <a href="#identify" className="nav-link">
+          <h1>IDENTIFY</h1>
+        </a>
         <a href="#about" className="nav-link">
           <h1>ABOUT</h1>
         </a>
         <a href="#products" className="nav-link">
           <h1>THEMES</h1>
-        </a>
-        <a href="#identify" className="nav-link">
-          <h1>IDENTIFY</h1>
         </a>
       </nav>
       <br />
@@ -41,6 +41,29 @@ export default function Home() {
           alt="Image 3"
         /> */}
       </div>
+      <section id="identify" className="content">
+        <h2 style={{ textAlign: 'center' }}>IDENTIFY</h2>
+        <div className="box">
+          <div className="pad">
+            <div style={ {textAlign: "center", fontSize: "35px"} }>Are you Opium?</div>
+            <br />
+            <br />
+            <opiumOutput.Provider value={[coolnessState, colorState]}>
+              <div className="flexing">
+                <div className="small-box">
+                  <Coolness />
+                </div>
+                <div className="spacing">
+                  <Opium />
+                </div>
+                <div className="small-box">
+                  <Color />
+                </div>
+              </div>
+            </opiumOutput.Provider>
+          </div>
+        </div>
+      </section>
       <section id="about" className="content">
         <h2 style={{ textAlign: 'center' }}>ABOUT</h2>
         <div className="box">
@@ -65,7 +88,7 @@ export default function Home() {
             >
               The theme of this website was inpsired by a friend. However, the actual website was built exclusively by myself. 
 
-              Hint: Try options 3, 5, or 7 below. 
+              Hint: Try options 3, 5, or 7 above. 
             </p>
           </div>
         </div>
@@ -91,29 +114,6 @@ export default function Home() {
                 <li>advance</li>
               </ul>
             </div>
-          </div>
-        </div>
-      </section>
-      <section id="identify" className="content">
-        <h2 style={{ textAlign: 'center' }}>IDENTIFY</h2>
-        <div className="box">
-          <div className="pad">
-            <div style={ {textAlign: "center", fontSize: "35px"} }>Are you Opium?</div>
-            <br />
-            <br />
-            <opiumOutput.Provider value={[coolnessState, colorState]}>
-              <div className="flexing">
-                <div className="small-box">
-                  <Coolness />
-                </div>
-                <div className="spacing">
-                  <Opium />
-                </div>
-                <div className="small-box">
-                  <Color />
-                </div>
-              </div>
-            </opiumOutput.Provider>
           </div>
         </div>
       </section>
